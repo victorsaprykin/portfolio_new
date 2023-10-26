@@ -1,0 +1,65 @@
+.projects,
+.competencies,
+.services {
+  padding-top: 150px;
+}
+
+.project-list {
+  margin-bottom: 80px;
+}
+
+.projects-list__item {
+  position: relative;
+  height: 550px;
+}
+
+.projects-list__lable {
+  position: absolute;
+  top: 50px;
+  left: 45px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #000;
+  border-radius: 100px;
+  background: var(--accent-color);
+}
+
+.projects-list__item img {
+  border-radius: 33px;
+}
+
+.projects-list__description {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  max-width: 500px;
+}
+
+.projects-list__name {
+  font-size: 35px;
+  letter-spacing: -1.05px;
+}
+
+.projects-list__text {
+  font-size: 30px;
+  letter-spacing: -0.9px;
+}
+
+.projects__btn {
+  width: 582px;
+  height: 153px;
+  border-radius: 10px;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  background-color: var(--accent-color);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.projects__btn:hover {
+  border: 1px solid var(--accent-color);
+  background-color: transparent;
+  color: var(--accent-color);
+}

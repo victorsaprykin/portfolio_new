@@ -1,0 +1,20 @@
+.competencies-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 47px;
+}
+
+.competencies-list__item {
+  max-width: 535px;
+}
+
+.competencies-list__icon {
+  margin-bottom: 15px;
+}
+
+.competencies-list__text:not(:last-child) {
+  margin-bottom: 63px;
+  font-size: 22px;
+  letter-spacing: -0.66px;
+}

@@ -1,0 +1,37 @@
+.services {
+  padding-bottom: 150px;
+}
+
+.services__title {
+  width: 630px;
+}
+
+.services-list__title {
+  font-size: 55px;
+  max-width: 460px;
+  line-height: 1.1;
+  letter-spacing: -1.65px;
+  color: var(--accent-color);
+}
+
+.services-list__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.services-list__item img {
+  border-radius: 30px;
+  vertical-align: bottom;
+}
+
+.services-list__description {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  padding: 40px;
+  border-radius: 30px;
+  background-color: #191c19;
+}
+
+.services-list__text {
+  width: 510px;
+}

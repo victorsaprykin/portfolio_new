@@ -1,0 +1,35 @@
+:root {
+  --accent-color: #1bff07;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1180px;
+}
+
+.title {
+  margin-bottom: 80px;
+  font-size: 55px;
+  line-height: normal;
+  letter-spacing: -1.65px;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+.footer {
+  padding-top: 150px;
+  background-color: #000;
+  font-family: "Manrope", sans-serif;
+}
+
+.footer-inner {
+  padding-top: 76px;
+  padding-bottom: 15px;
+  border-radius: 30px 30px 0 0;
+  background-color: #fff;
+  color: #000;
+}
+
+.footer-inner__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-inner__block {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: -0.66px;
+}
+.footer-inner__title {
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: -0.66px;
+}
+
+.footer-inner__block p {
+  opacity: .5;
+}
+
+.footer-inner__contacts {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+
+}
